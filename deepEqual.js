@@ -1,6 +1,6 @@
 function deepEqual(objA, objB) {
   if (objA === null || objB === null) {
-    //confirmation if is null
+    //confirmation if is null and treating
     return objA === objB;
   }
   if (typeof objA !== typeof objB) {
